@@ -16,7 +16,7 @@ end
 
 # 使用 < 來代表繼承
 class Engineer < Person
-
+  
 end
 
 class Salesman < Person

@@ -3,7 +3,9 @@
 
 class Person  
   # 宣告 constant，全部大寫
-  LEGAL_AGE_TO_DRIVE = 16
+  LEGAL_AGE_TO_DRIVE = 18
+  PI =  3.1469680
+  TAX_RATE = 0.05
 
   attr_accessor :name, :age
 

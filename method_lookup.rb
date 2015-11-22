@@ -12,6 +12,9 @@ class Person
     @age = age
   end
 
+  def math
+  end
+
   def greet
     puts "hello, my name is #{self.name}"
   end

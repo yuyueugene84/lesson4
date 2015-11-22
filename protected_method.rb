@@ -28,6 +28,6 @@ end
 bob = Person.new("bob", 17)
 bob.identity
 # secretly, I am Spider Man!
-bob.protected_method
+#bob.protected_method
 # => protected_class.rb:31:in `<main>': protected method `protected_method' called for
 # => #<Person:0x007fb9f3033428 @name="bob", @age=17> (NoMethodError)

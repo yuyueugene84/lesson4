@@ -32,6 +32,9 @@ class Person
   #今天我要是在class裡，instance methods 外看 self
   puts self
 
+  def Person.info 
+  end
+
   def initialize(name, age)
     @name = name
     @age = age
