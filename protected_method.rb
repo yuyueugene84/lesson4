@@ -1,6 +1,6 @@
 # protected 是介於 public 和 private 之間
-# 從 class 外面來看，protected 就像 private，不能被物件使用
-# 從內部看
+# 從 class 外面來看，protected 就像 private，不能被物件直接呼叫
+# 從內部看 protected method 可被其他 instance method 呼叫，就像一般的 public method
 class Person  
   attr_accessor :name, :age
 
@@ -14,7 +14,7 @@ class Person
   end
 
   def identity
-    #在 class 裡面可被其他 instance method 呼叫，就像一般
+    #在 class 裡面可被其他 instance method 呼叫，就像一般的 public method
     puts "secretly, #{self.protected_method}"
   end
 
